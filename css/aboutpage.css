@@ -1,10 +1,10 @@
   <style>
     body {
       text-align: center;
-      background-size: cover;
-      background-position: center;
       color: black;
       font-family: helvetica;
+      background-image: cover;
+      background-size: 100px;
     }
     p {
       font-size: 50px;
