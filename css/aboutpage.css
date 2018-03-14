@@ -1,0 +1,33 @@
+  <style>
+    body {
+      text-align: center;
+      background-size: cover;
+      background-position: center;
+      color: black;
+      font-family: helvetica;
+    }
+    p {
+      font-size: 50px;
+      text-align: center;
+      background-size: cover;
+      background-position: center;
+      color: black;
+      font-family: Courier;
+    }
+    input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+      background: red;
+      color: white;
+    }
+
+  h1{
+    font-family: Courier;
+    text-align: center;
+    font-size: 100px;
+    color: black
+  }
+  </style>
