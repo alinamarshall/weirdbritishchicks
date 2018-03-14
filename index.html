@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <head>
   <title>The Weird British Chicks</title>
+<<<<<<< HEAD
   <link rel = "stylesheet" type = "text/css" href = "css/aboutpage.css">
+=======
+
 
 </head>
 <body>
+  <link rel = "stylesheet" type = "text/css" href = "css/index.css">
+  <img class="mySlides" src="../image/image1.jpg">
+  <img class="mySlides" src="../image/image2.jpg">
+  <img class="mySlides" src="../image/image3.jpg">
+  <img class="mySlides" src="../image/image4.jpg">
+
+  <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+
+<script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+
+  function plusDivs(n) {
+      showDivs(slideIndex += n);
+  }
+>>>>>>> a4f3e1c9322a2452ea4d54af698348ef26c8fa94
+
+  function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length} ;
+      for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+      }
+      x[slideIndex-1].style.display = "block";
+  }
+</script>
 
 <ul class='nav'>
-    <li><a href="#about">About</a></li>
-    <li><a href="#travel">Travel</a></li>
-    <li><a href="#college">College</a></li>
+    <li><a href="aboutpage.html">About</a></li>
+    <li><a href="travelpage.html">Travel</a></li>
+    <li><a href="collegepage.html">College</a></li>
 </ul>
 </body>
