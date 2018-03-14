@@ -9,16 +9,14 @@ html, body{
 li {
     color: black;
     font-size: 20px;
-    font-family: "Veranda", Times, serif;
+    font-family: "Courier", Times, serif;
 }
-
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 a {
     color: black;
     text-decoration: none;
-}
-.leftbtn {
-    position: left;
-}
-.rightbtn {
-    position: right;
 }
