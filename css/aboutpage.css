@@ -37,6 +37,12 @@ body {
   * {
     box-sizing: border-box;
 }
+.logo{
+  padding-bottom: 10px;
+  height: 50%;
+  width: auto;
+
+}
 .column {
     float: left;
     width: 50%;
