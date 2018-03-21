@@ -1,0 +1,17 @@
+body {
+font-family: helvetica, sans-serif;
+margin: 0, auto;
+max-width: auto;
+}
+div {
+  height: auto;
+  background-size: cover;
+  position: relative;
+  margin: 40px 100px 0 100px;
+  border-radius: 100px;
+}
+p {
+padding: 33%;
+bottom: 0;
+margin: 0;
+}
