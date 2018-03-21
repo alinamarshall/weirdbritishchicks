@@ -1,0 +1,61 @@
+
+  body {
+  font-family: helvetica, sans-serif;
+  margin: 0, auto;
+  max-width: auto;
+}
+  div {
+    height: auto;
+    background-size: cover;
+    position: relative;
+    margin: 40px 100px 0 100px;
+    border-radius: 100px;
+}
+  .NY{
+    background-image: url("image/newyork.jpg");
+  }
+  .Boston{
+    background-image: url("image/boston2.jpg");
+  }
+  .DC{
+    background-image: url("image/DC.jpg");
+  }
+  .Philadelphia{
+    background-image: url("image/liberty.jpg");
+}
+.Chicago{
+  background-image: url("image/chicago.jpg")
+}
+  p {
+  padding: 33%;
+  bottom: 0;
+  margin: 0;
+}
+  </style>
+
+
+  <body>
+  <div class="NY">
+    <p>New York <br />
+    <small>The Big Apple </small></p>
+  </div>
+
+  <div class="Boston">
+    <p>Boston <br />
+    <small>Best place for a tea party</small></p>
+  </div>
+
+  <div class="DC">
+    <p>Washington DC <br />
+    <small>The capital of the US</small></p>
+  </div>
+
+  <div class="Philadelphia">
+    <p>Philadelphia <br />
+    <small>More than just cheese</small></p>
+  </div>
+
+  <div class="Chicago">
+    <p>Chicago <br />
+    <small>The home of deep dish</small></p>
+  </div>
