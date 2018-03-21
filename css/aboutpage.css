@@ -47,12 +47,14 @@ body {
     float: left;
     width: 20%;
     padding-top: 20px;
+    padding-bottom: 50px;
     height: 300px;
 }
 .column2 {
     float: right;
     width: 80%;
     padding-left: 30px;
+    padding-bottom: 50px;
     height: 300px;
     text-align: justify;
   }
