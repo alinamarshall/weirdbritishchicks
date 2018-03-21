@@ -5,12 +5,12 @@ body {
       background: white;
     }
     p {
-      font-size: 25px;
+      font-size: 20px;
       text-align: center;
       background-size: cover;
       background-position: center;
       color: black;
-      font-family: Courier;
+      font-family: Helvetica;
     }
     input {
       border: 0;
@@ -23,8 +23,13 @@ body {
     }
   h1 {
       text-align:  center;
-      font-family: Courier;
-      font-size: 80px;
+      font-family: Helvetica;
+      font-size: 60px;
+  }
+  h2 {
+      text-align:  center;
+      font-family: Helvetica;
+      font-size: 30px;
   }
   a {
       color: black;
@@ -47,7 +52,9 @@ body {
     float: right;
     width: 80%;
     padding-top: 20px;
+    padding-left: 30px;
     height: 300px;
+    text-align: justify;
   }
 .row:after {
     content: "";
@@ -55,7 +62,8 @@ body {
     clear: both;
 }
 .column1 img {
-width: 100%;
+    width: 100%;
+    border-radius: 50%;
 }
 .mySlides {
     max-width: 100%;
